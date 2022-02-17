@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains nikro_demos.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function nikro_demos_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the nikro_demos module.
+    case 'help.page.nikro_demos':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Overall wrapper for all the demos.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains nikro_image_effects.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function nikro_image_effects_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the nikro_image_effects module.
+    case 'help.page.nikro_image_effects':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Nikro&#039;s Demo module for demo-ing Image Effects.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

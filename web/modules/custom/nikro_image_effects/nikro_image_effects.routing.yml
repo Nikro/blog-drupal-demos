@@ -1,0 +1,7 @@
+nikro_image_effects.demo_form:
+  path: '/admin/config/demo/nikro_image_effects/form-demo'
+  defaults:
+    _form: '\Drupal\nikro_image_effects\Form\DemoForm'
+    _title: 'Image Builder (Demo)'
+  requirements:
+    _access: 'TRUE'

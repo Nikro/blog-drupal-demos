@@ -1,0 +1,7 @@
+nikro_demos.demo:
+  path: '/admin/config/demo'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Nikro Demos'
+  requirements:
+    _permission: 'access administration pages'

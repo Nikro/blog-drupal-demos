@@ -1,0 +1,12 @@
+name: 'Nikro Image Effects'
+type: module
+description: 'Nikro''s Demo module for demo-ing Image Effects.'
+core_version_requirement: ^8 || ^9
+package: 'Nikro Custom'
+dependencies:
+  - drupal:image
+  - image_effects:image_effects
+  - textimage:textimage
+  - media_library_form_element:media_library_form_element
+  - color_field:color_field
+  - nikro_demos:nikro_demos

@@ -1,0 +1,6 @@
+nikro_image_effects.build:
+  title: 'Demo Image Effects'
+  route_name: nikro_image_effects.demo_form
+  description: 'Image Effects Form Builder.'
+  weight: 10
+  parent: nikro_demos.demo

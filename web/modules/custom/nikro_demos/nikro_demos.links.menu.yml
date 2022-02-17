@@ -1,0 +1,6 @@
+nikro_demos.demo:
+  title: 'Nikro Demos'
+  route_name: nikro_demos.demo
+  description: 'List of all the demos.'
+  weight: 20
+  parent: system.admin_config

@@ -1,0 +1,10 @@
+debug: false
+default_extension: png
+url_generation:
+  enabled: false
+  text_separator: '---'
+default_font:
+  name: null
+  uri: null
+_core:
+  default_config_hash: Uhi8_qZk4TddoUw18rRiUrCaca1r3640z2KyXy8VJMQ

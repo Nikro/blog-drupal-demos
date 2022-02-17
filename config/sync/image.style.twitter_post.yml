@@ -1,0 +1,65 @@
+uuid: 9146d940-41ce-4dcf-acf7-615f3b3fefd6
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+    - textimage
+third_party_settings:
+  textimage:
+    uri_scheme: public
+name: twitter_post
+label: 'Twitter Post'
+effects:
+  d41fdab6-abe6-4b9f-bdf8-af308ca8a256:
+    uuid: d41fdab6-abe6-4b9f-bdf8-af308ca8a256
+    id: image_scale_and_crop
+    weight: -10
+    data:
+      width: 1200
+      height: 675
+      anchor: center-center
+  730b7afa-5898-4340-8b3e-7fa785c4fdca:
+    uuid: 730b7afa-5898-4340-8b3e-7fa785c4fdca
+    id: image_effects_text_overlay
+    weight: -9
+    data:
+      font:
+        name: 'Open Sans Regular'
+        uri: modules/custom/nikro_image_effects/assets/fonts/OpenSans/OpenSans-Regular.ttf
+        size: 12
+        angle: 0
+        color: '#00000080'
+        stroke_mode: shadow
+        stroke_color: '#80808033'
+        outline_top: 0
+        outline_right: 0
+        outline_bottom: 0
+        outline_left: 0
+        shadow_x_offset: 1
+        shadow_y_offset: 1
+        shadow_width: 0
+        shadow_height: 0
+      layout:
+        padding_top: 10
+        padding_right: 0
+        padding_bottom: 0
+        padding_left: 10
+        x_pos: left
+        y_pos: top
+        x_offset: 0
+        y_offset: 0
+        overflow_action: extend
+        extended_color: ''
+        background_color: ''
+      text:
+        strip_tags: true
+        decode_entities: true
+        maximum_width: 0
+        fixed_width: false
+        align: left
+        case_format: ''
+        line_spacing: 0
+        maximum_chars: null
+        excess_chars_text: …
+      text_string: 'Twitter - 1200x675'

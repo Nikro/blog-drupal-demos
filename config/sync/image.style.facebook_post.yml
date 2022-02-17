@@ -1,0 +1,65 @@
+uuid: eeeecf80-207c-4f12-aaa2-0d5fef0ab020
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+    - textimage
+third_party_settings:
+  textimage:
+    uri_scheme: public
+name: facebook_post
+label: 'Facebook Post'
+effects:
+  105f0cd0-3d1c-4ab6-bc4f-738a7322fc61:
+    uuid: 105f0cd0-3d1c-4ab6-bc4f-738a7322fc61
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 940
+      height: 788
+      anchor: center-center
+  244787ed-b5d6-40e1-9498-6e748b9537c0:
+    uuid: 244787ed-b5d6-40e1-9498-6e748b9537c0
+    id: image_effects_text_overlay
+    weight: 2
+    data:
+      font:
+        name: 'Open Sans Regular'
+        uri: modules/custom/nikro_image_effects/assets/fonts/OpenSans/OpenSans-Regular.ttf
+        size: 12
+        angle: 0
+        color: '#00000080'
+        stroke_mode: shadow
+        stroke_color: '#80808033'
+        outline_top: 0
+        outline_right: 0
+        outline_bottom: 0
+        outline_left: 0
+        shadow_x_offset: 1
+        shadow_y_offset: 1
+        shadow_width: 0
+        shadow_height: 0
+      layout:
+        padding_top: 10
+        padding_right: 0
+        padding_bottom: 0
+        padding_left: 10
+        x_pos: left
+        y_pos: top
+        x_offset: 0
+        y_offset: 0
+        overflow_action: crop
+        extended_color: ''
+        background_color: ''
+      text:
+        strip_tags: true
+        decode_entities: true
+        maximum_width: 0
+        fixed_width: false
+        align: left
+        case_format: ''
+        line_spacing: 0
+        maximum_chars: null
+        excess_chars_text: …
+      text_string: 'Facebook - 940x788'
